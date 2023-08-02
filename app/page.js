@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const LandingPage = () => {
   return (
-    <div className="bg-gray-950	pb-20 w-full h-full flex flex-col justify-center items-center">
+    <div className="bg-gray-950	pb-20 w-full h-screen flex flex-col justify-center items-center">
       <div className="mt-40">
         <h1 className="text-white text-center text-lg">
           Unleash your viral potential (hamudi is a fucking geek)
