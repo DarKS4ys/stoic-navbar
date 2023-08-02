@@ -11,9 +11,7 @@ const LandingPage = () => {
     <div className="bg-gray-950	pb-20 w-full h-full flex flex-col justify-center items-center">
       <div className="mt-40">
         <h1 className="text-white text-center text-lg">
-          Unleash your viral potential
-          <Image src="/hamudi.png" height={500} width={500} alt="hamudigeek" />
-          (hamudi is a fucking geek)
+          Unleash your viral potential (hamudi is a fucking geek)
         </h1>
       </div>
 
