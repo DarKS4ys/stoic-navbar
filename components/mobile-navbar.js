@@ -5,6 +5,7 @@ import { Button } from './ui/button';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import StoicButton from './stoicbutton';
 
 const MobileNavbar = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -37,6 +38,9 @@ const MobileNavbar = () => {
           <p className="px-4 m-1 py-2 text-white  hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
             <Link href="#">FAQs</Link>
           </p>
+          <div className="mt-2">
+            <StoicButton />
+          </div>
         </div>
       </SheetContent>
     </Sheet>

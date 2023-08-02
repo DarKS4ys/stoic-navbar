@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './button.module.css';
 
-const Button = () => {
+const StoicButton = () => {
   return (
     <div>
       <Link href="#">
@@ -10,4 +10,4 @@ const Button = () => {
     </div>
   );
 };
-export default Button;
+export default StoicButton;
