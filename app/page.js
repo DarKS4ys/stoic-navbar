@@ -12,12 +12,7 @@ const LandingPage = () => {
       <div className="mt-40">
         <h1 className="text-white text-center text-lg">
           Unleash your viral potential
-          <Image
-            src="/static/images/hamudi.png"
-            height={500}
-            width={500}
-            alt="hamudigeek"
-          />
+          <Image src="/hamudi.png" height={500} width={500} alt="hamudigeek" />
           (hamudi is a fucking geek)
         </h1>
       </div>
