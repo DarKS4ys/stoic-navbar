@@ -30,15 +30,21 @@ export default function RootLayout({ children }) {
                 <MobileNavbar />
               </div>
               <div className="justify-center flex-grow hidden md:flex">
-                <p className="px-4 mx-1 py-2 text-sm text-white hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
-                  <Link href="#">Features</Link>
-                </p>
-                <p className="px-4 mx-1 py-2 text-sm text-white hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
-                  <Link href="#">Pricing</Link>
-                </p>
-                <p className="px-4 mx-1 py-2 text-sm text-white  hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
-                  <Link href="#">FAQs</Link>
-                </p>
+                <Link href="#">
+                  <p className="px-4 mx-1 py-2 text-sm text-white hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
+                    Features
+                  </p>
+                </Link>
+                <Link href="#">
+                  <p className="px-4 mx-1 py-2 text-sm text-white hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
+                    Pricing
+                  </p>
+                </Link>
+                <Link href="#">
+                  <p className="px-4 mx-1 py-2 text-sm text-white  hover:bg-white/10 hover:scale-110 rounded-lg transition duration-300">
+                    FAQs
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
